@@ -28,9 +28,9 @@ function App() {
         type="text"
         value={amount}
         onChange={(e) => setAmount(Number(e.target.value))}
-        className="w-[400px] py-2 text-center rounded-xl"
+        className="w-full py-2 text-center rounded-xl"
       />
-      <div className="flex justify-between px-5 ">
+      <div className="flex justify-between px-5 gap-3 ">
         <select
           value={fromCur}
           onChange={(e) => setFromCur(e.target.value)}
